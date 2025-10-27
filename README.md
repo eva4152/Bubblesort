@@ -1,1 +1,6 @@
 # Bubblesort
+This program swaps the letters in a letterarray, and the numbers in a numberarray, so the order is ascending.
+the functions made is implementet in a header file called sort.{c,h}.
+There are two functions which have same purpose. One check is the first number/letter is smaller or equal to the second number/letter. And the functions is called in a pointer in the bubble_sort function, which returns false, if the numbers/letter were bigger than the previoulsy number/letter. and true if the order is correct. Moreover is there a swap function, which swaps the first and second character put into the command-line interface.
+In main().c, we firstly defines the 2 arrays, and remember to include our headerfile sort.h.
+We declare a is_sorted bool, where we after use a do-while loop after, where we firste set is_sorted to false, after we check using our bubble_sort, if its false, we swap the characters, and is_sorted is set to true. the loop will continue as long is_sorted is true. And the new sorted array is printed.
